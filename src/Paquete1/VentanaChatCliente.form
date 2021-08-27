@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Paquete1.VentanaChatCliente">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="8" y="19" width="500" height="500"/>
+    </constraints>
+    <properties>
+      <background color="-13995845"/>
+      <inheritsPopupMenu value="false"/>
+      <maximumSize width="500" height="500"/>
+      <minimumSize width="500" height="500"/>
+      <name value="Chat"/>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5b7cf" class="javax.swing.JLabel" binding="labelValorProducto">
+        <constraints/>
+        <properties>
+          <text value="Valor Producto"/>
+        </properties>
+      </component>
+      <component id="ad94e" class="javax.swing.JTextField" binding="txtValorProducto">
+        <constraints/>
+        <properties>
+          <columns value="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="da5e6" class="javax.swing.JLabel" binding="labelPesoProducto">
+        <constraints/>
+        <properties>
+          <text value="Peso Producto"/>
+        </properties>
+      </component>
+      <component id="a9183" class="javax.swing.JTextField" binding="txtPesoProducto">
+        <constraints/>
+        <properties>
+          <columns value="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2a9b1" class="javax.swing.JLabel" binding="labelPorcentajeImpuestos">
+        <constraints/>
+        <properties>
+          <text value="Porcentaje Impuestos"/>
+        </properties>
+      </component>
+      <component id="2809a" class="javax.swing.JTextField" binding="txtPorcentajeImpuestos">
+        <constraints/>
+        <properties>
+          <columns value="27"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a1f3f" class="javax.swing.JButton" binding="enviarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Enviar"/>
+        </properties>
+      </component>
+      <component id="46851" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <component id="4fc18" class="javax.swing.JLabel" binding="labelResultado">
+        <constraints/>
+        <properties>
+          <text value="Resultado"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
