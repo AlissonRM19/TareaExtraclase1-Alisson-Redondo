@@ -65,10 +65,10 @@
           <text value="Salir"/>
         </properties>
       </component>
-      <component id="4fc18" class="javax.swing.JLabel" binding="labelResultado">
+      <component id="4fc18" class="javax.swing.JLabel" binding="labelMonto">
         <constraints/>
         <properties>
-          <text value="Resultado"/>
+          <text value="Monto"/>
         </properties>
       </component>
     </children>
