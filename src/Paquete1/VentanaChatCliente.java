@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class VentanaChatCliente extends JFrame{
     /*
     *  Instituto Tecnológico de Costa Rica
@@ -18,27 +19,28 @@ public class VentanaChatCliente extends JFrame{
     private JTextField txtValorProducto;
     private JTextField txtPesoProducto;
     private JTextField txtPorcentajeImpuestos;
-    private JButton enviarButton;
-    private JButton salirButton;
+    private JButton EnviarButton;
+    private JButton SalirButton;
     private JLabel labelValorProducto;
     private JLabel labelPesoProducto;
     private JLabel labelPorcentajeImpuestos;
     private JLabel labelMonto;
+    private JLabel labelUsuario;
+    private JTextField txtUsuario;
+    private JLabel labelPuerto;
+    private JTextField txtPuerto;
+    private JLabel labelTNU;
+    public JLabel labelNU;
+    private JLabel labelTP;
+    private JLabel labelP;
 
     public VentanaChatCliente(){
         super("Chat Cliente");
 
         setContentPane(panel1);
 
-        salirButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                dispose();
-                System.exit(0);
-            }
-        });
 
-        enviarButton.addActionListener(new ActionListener() {
+        EnviarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
@@ -64,9 +66,18 @@ public class VentanaChatCliente extends JFrame{
                 txtPesoProducto.setText("");
                 txtPorcentajeImpuestos.setText("");
 
+
+
+                labelNU.setText("El usuario es: "+ txtUsuario.getText());
+                labelP.setText("El Puerto es: "+ txtPuerto.getText());
+            }
+        });
+        SalirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                System.exit(0);
             }
         });
     }
-
-
 }

@@ -5,6 +5,7 @@
       <xy x="8" y="19" width="500" height="500"/>
     </constraints>
     <properties>
+      <autoscrolls value="false"/>
       <background color="-13995845"/>
       <inheritsPopupMenu value="false"/>
       <maximumSize width="500" height="500"/>
@@ -14,6 +15,32 @@
     </properties>
     <border type="none"/>
     <children>
+      <component id="bbf28" class="javax.swing.JLabel" binding="labelUsuario">
+        <constraints/>
+        <properties>
+          <text value="Usuario"/>
+        </properties>
+      </component>
+      <component id="e6d1f" class="javax.swing.JTextField" binding="txtUsuario">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="30330" class="javax.swing.JLabel" binding="labelPuerto">
+        <constraints/>
+        <properties>
+          <text value="Puerto"/>
+        </properties>
+      </component>
+      <component id="f7ebf" class="javax.swing.JTextField" binding="txtPuerto">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+          <text value=""/>
+        </properties>
+      </component>
       <component id="5b7cf" class="javax.swing.JLabel" binding="labelValorProducto">
         <constraints/>
         <properties>
@@ -53,13 +80,13 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="a1f3f" class="javax.swing.JButton" binding="enviarButton" default-binding="true">
+      <component id="a1f3f" class="javax.swing.JButton" binding="EnviarButton">
         <constraints/>
         <properties>
           <text value="Enviar"/>
         </properties>
       </component>
-      <component id="46851" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+      <component id="17e7c" class="javax.swing.JButton" binding="SalirButton">
         <constraints/>
         <properties>
           <text value="Salir"/>
@@ -69,6 +96,30 @@
         <constraints/>
         <properties>
           <text value="Monto"/>
+        </properties>
+      </component>
+      <component id="34649" class="javax.swing.JLabel" binding="labelTNU">
+        <constraints/>
+        <properties>
+          <text value="Usuario Ingresado:"/>
+        </properties>
+      </component>
+      <component id="da96b" class="javax.swing.JLabel" binding="labelNU">
+        <constraints/>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="12b23" class="javax.swing.JLabel" binding="labelTP">
+        <constraints/>
+        <properties>
+          <text value="Puerto Ingresado: "/>
+        </properties>
+      </component>
+      <component id="c183f" class="javax.swing.JLabel" binding="labelP">
+        <constraints/>
+        <properties>
+          <text value=""/>
         </properties>
       </component>
     </children>

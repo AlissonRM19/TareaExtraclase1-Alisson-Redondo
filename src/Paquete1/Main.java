@@ -19,12 +19,10 @@ public class Main {
                 JFrame frame = new VentanaChatCliente();
                 frame.setSize(500, 300);
                 frame.setVisible(true);
-
-                JFrame frame2 = new VentanaChatServidor();
-                frame2.setSize(500, 500);
-                frame2.setVisible(true);
             }
         });
 
     }
+
+
 }
