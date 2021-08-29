@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Paquete1","c":"VentanaChatCliente","l":"labelNU"},{"p":"Paquete1","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"Paquete1","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"Paquete1","c":"VentanaChatCliente","l":"VentanaChatCliente()","u":"%3Cinit%3E()"}];updateSearchResults();
