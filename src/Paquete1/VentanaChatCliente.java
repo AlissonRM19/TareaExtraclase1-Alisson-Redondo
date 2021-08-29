@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * VentanaChatCliente va a representar una interfaz grafica en la que se pueden introducir valores y ser respodidio con el monto.
+ * @author Alisson Redondo Moya
+ */
 
 public class VentanaChatCliente extends JFrame{
     /*
@@ -34,14 +38,20 @@ public class VentanaChatCliente extends JFrame{
     private JLabel labelTP;
     private JLabel labelP;
 
+    /**
+     * Se crea una ventana en la que se pueden escribir valores y devuelve el monto calculado
+     */
     public VentanaChatCliente(){
         super("Chat Cliente");
 
         setContentPane(panel1);
 
-
         EnviarButton.addActionListener(new ActionListener() {
-            @Override
+            /**
+             * Sobre escribe el metodo actionPerformed
+             *@Override
+             *
+             */
             public void actionPerformed(ActionEvent e) {
 
                 int ValorUno = 0;
@@ -72,8 +82,12 @@ public class VentanaChatCliente extends JFrame{
                 labelP.setText("El Puerto es: "+ txtPuerto.getText());
             }
         });
+
         SalirButton.addActionListener(new ActionListener() {
-            @Override
+            /**
+             * Sobre escribe el metodo actionPerformed
+             *@Override
+             */
             public void actionPerformed(ActionEvent e) {
                 dispose();
                 System.exit(0);
